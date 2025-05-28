@@ -1,0 +1,19 @@
+{
+  "invoice_number": "INV-2025-0012",
+  "date": "2025-05-28",
+  "due_date": "2025-06-27",
+  "vendor": {
+    "name": "Acme Corp",
+    "email": "billing@acme.com"
+  },
+  "client": {
+    "name": "Beta LLC",
+    "email": "accounts@beta.com"
+  },
+  "items": [
+    {"description": "Consulting", "quantity": 10, "unit_price": 200.0, "amount": 2000.0},
+    {"description": "Support", "quantity": 5, "unit_price": 100.0, "amount": 500.0}
+  ],
+  "total": 2500.0,
+  "payment_terms": "Net 30"
+}
